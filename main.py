@@ -7,6 +7,13 @@ def get_random_word(word_list):
   return word_list[word_index]
 
 def display_board(missed_letters, correct_letters, secret_word):
+  """ This function creates the board game.
+
+  Params:
+    missed_letters: string 
+    correct_letters: string
+    secret_word: string
+  """
   print(hm_module.HANGMAN_PICS[len(missed_letters)])
   print()
 
