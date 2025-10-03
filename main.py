@@ -10,10 +10,13 @@ def display_board(missed_letters, correct_letters, secret_word):
   """ This function creates the board game.
 
   Params:
-    missed_letters: string 
-    correct_letters: string
-    secret_word: string
-  """
+    missed_letters (str): string 
+    correct_letters (str): string
+    secret_word (str): string
+  
+  Returns:
+    N/A
+    """
   print(hm_module.HANGMAN_PICS[len(missed_letters)])
   print()
 
